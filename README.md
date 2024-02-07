@@ -11,9 +11,26 @@ baddi who loves his cat more than it loves him.
 
 His website seems sus tho. So check it out.
 
-**Steps to solve:**
 
+## Instalation
+
+*First clone the repo with:*
 ```
+git clone https://github.com/ill3ageef/fuzzy-giggle.git
+```
+
+*Then copy-paste the following commands:*
+```
+cd ctfs; pip install -r requirements.txt; cd qualifiers_round; 
+```
+ *Finally, to run the app, type:*
+ ```
+ flask --app app run 
+ ```
+
+
+## Steps to solve:
+
 1. View the page source to reveal the hidden 
 link to the login page
 
@@ -22,4 +39,3 @@ login credentials (username and password)
 
 3. Locate the hash in the baddi's notes and 
 decrypt it using base64 to get the flag!
-```
