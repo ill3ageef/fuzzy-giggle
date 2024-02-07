@@ -39,3 +39,9 @@ login credentials (username and password)
 
 3. Locate the hash in the baddi's notes and 
 decrypt it using base64 to get the flag!
+
+
+<details closed>
+  <summary>FLAG:</summary>
+  ZmxhZ3tHb09Pb2Rfd2VsbF90QWxrX3NPb05fMTk0NjQ5MDJ9
+</details>
