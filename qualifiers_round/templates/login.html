@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweeter</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .login {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            background: rgb(126, 212, 234);
+            border-radius: 20px;
+            padding: 30px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<form method="POST" class="login">
+    <h1>Login</h1>
+    <h3>made <i>securely</i> with JavaScript</h3>
+    <label>
+        Username:
+        <input type="text" name="username" id="username" placeholder="Username...">
+    </label>
+    <label>
+        Password:
+        <input type="password" name="password" id="password" placeholder="Password...">
+    </label>
+    <input type="submit" onclick="login()">
+</form>
+
+<!-- Top Secret JS files -->
+<script src="/static/login.js"></script>
+
+
+</body>
+</html>
