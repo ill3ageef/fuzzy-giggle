@@ -25,7 +25,7 @@ cd ctfs; pip install -r requirements.txt; cd qualifiers_round;
 ```
  *Finally, to run the app, type:*
  ```
- flask --app app run 
+ flask --app app run --port [PORT NUMBER]
  ```
 
 
